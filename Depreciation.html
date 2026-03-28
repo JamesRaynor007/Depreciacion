@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Matriz de Depreciación</title>
+<link rel="stylesheet" href="styleDepreciation.css" />
+</head>
+<body>
+
+<h2>Matriz de Depreciación</h2>
+<div class="button-container">
+  <button id="addRowBtn">Añadir fila</button>
+  <button id="removeLastRowBtn">Quitar última fila</button>
+</div>
+
+<table id="depreciationTable">
+  <thead>
+    <tr>
+      <th>Kind</th>
+      <th>Asset Name</th>
+      <th>Useful Life (Years)</th>
+      <th>Useful Life (Months)</th>
+      <th>Buy Value</th>
+      <th>Monthly Depreciation</th>
+      <th>Yearly Depreciation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Las filas se añadirán aquí dinámicamente -->
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="5">Totales</td>
+      <td id="totalMonthly">0.00</td>
+      <td id="totalYearly">0.00</td>
+    </tr>
+  </tfoot>
+</table>
+
+<script src="JavaScript/JavaScriptDepreciation.js"></script>
+
+</body>
+</html>

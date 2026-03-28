@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #8ab0d2; /* color de fondo deseado */
+}
+
+
+/* Contenedor para los botones */
+.button-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+  /* Fondo general de la tabla, opcional */
+  background-color: #9dd3b2; /* color de fondo general de la tabla */
+}
+
+/* Asignar anchos específicos a cada columna */
+table th:nth-child(1),
+table td:nth-child(1) {
+  width: 100px; /* ancho para la columna 1 */
+}
+
+table th:nth-child(2),
+table td:nth-child(2) {
+  width: 250px; /* ancho para la columna 2 */
+}
+
+table th:nth-child(3),
+table td:nth-child(3) {
+  width: 60px; /* ancho para la columna 3 */
+}
+
+table th:nth-child(4),
+table td:nth-child(4) {
+  width: 60px; /* ancho para la columna 4 */
+}
+
+table th:nth-child(5),
+table td:nth-child(5) {
+  width: 70px; /* ancho para la columna 5 */
+}
+
+table th:nth-child(6),
+table td:nth-child(6) {
+  width: 80px; /* ancho para la columna 6 */
+}
+
+table th:nth-child(7),
+table td:nth-child(7) {
+  width: 80px; /* ancho para la columna 7 */
+}
+
+th, td {
+  border: 1px solid #1cacaa;
+  padding: 8px;
+  text-align: center;
+}
+
+/* Fondo de la cabecera */
+th {
+  background-color: #5ae8ce;
+}
+
+/* Fondo del pie de la tabla */
+tfoot td {
+  font-weight: bold;
+  background-color: #34cce3;
+}
+
+/* Color de fila intercalada: filas pares */
+tr:nth-child(even) {
+  background-color: #e0f7fa; /* color suave para filas pares */
+}
+
+/* Color de fila impar (puedes ajustarlo o eliminar si solo quieres filas intercaladas) */
+tr:nth-child(odd) {
+  background-color: #a8f3f7; /* blanco para filas impares */
+}
+
+button {
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+input[type="number"], input[type="text"] {
+  width: 100%;
+  box-sizing: border-box;
+}
