@@ -4,50 +4,9 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Matriz de Depreciación</title>
-<!-- Asegúrate de que la ruta del CSS sea correcta -->
-<link rel="stylesheet" href="styleDepreciation.css" />
 </head>
 <body>
-
 <h2>Matriz de Depreciación</h2>
-<div class="button-container">
-  <button id="addRowBtn">Añadir fila</button>
-  <button id="removeLastRowBtn">Quitar última fila</button>
-</div>
-
-<table id="depreciationTable" border="1" cellpadding="5" cellspacing="0">
-  <thead>
-    <tr>
-      <th>Kind</th>
-      <th>Asset Name</th>
-      <th>Useful Life (Years)</th>
-      <th>Useful Life (Months)</th>
-      <th>Buy Value</th>
-      <th>Monthly Depreciation</th>
-      <th>Yearly Depreciation</th>
-    </tr>
-  </thead>
-  <tbody>
-    <!-- Las filas se añadirán aquí dinámicamente -->
-  </tbody>
-  <tfoot>
-    <tr>
-      <td colspan="5">Totales</td>
-      <td id="totalMonthly">0.00</td>
-      <td id="totalYearly">0.00</td>
-    </tr>
-  </tfoot>
-</table>
-
-<!-- Incluye el script con el atributo defer para que se cargue después del DOM -->
-<script src="JavaScript/JavaScriptDepreciation.js" defer></script>
-
-<script>
-  // Para asegurar que el script se ejecute después de que el DOM esté cargado
-  document.addEventListener('DOMContentLoaded', () => {
-    // Aquí puedes inicializar funciones si es necesario
-  });
-</script>
-
+<!-- resto del contenido -->
 </body>
 </html>
