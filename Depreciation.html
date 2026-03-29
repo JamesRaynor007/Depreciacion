@@ -4,6 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Matriz de Depreciación</title>
+<!-- Asegúrate de que la ruta del CSS sea correcta -->
 <link rel="stylesheet" href="styleDepreciation.css" />
 </head>
 <body>
@@ -14,7 +15,7 @@
   <button id="removeLastRowBtn">Quitar última fila</button>
 </div>
 
-<table id="depreciationTable">
+<table id="depreciationTable" border="1" cellpadding="5" cellspacing="0">
   <thead>
     <tr>
       <th>Kind</th>
@@ -38,7 +39,15 @@
   </tfoot>
 </table>
 
-<script src="JavaScript/JavaScriptDepreciation.js"></script>
+<!-- Incluye el script con el atributo defer para que se cargue después del DOM -->
+<script src="JavaScript/JavaScriptDepreciation.js" defer></script>
+
+<script>
+  // Para asegurar que el script se ejecute después de que el DOM esté cargado
+  document.addEventListener('DOMContentLoaded', () => {
+    // Aquí puedes inicializar funciones si es necesario
+  });
+</script>
 
 </body>
 </html>
